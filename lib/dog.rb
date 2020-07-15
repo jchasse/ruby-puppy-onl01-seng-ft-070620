@@ -1,1 +1,4 @@
-# Add your code here
+require 'pry'
+
+def Dog
+  
