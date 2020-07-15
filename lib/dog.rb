@@ -1,4 +1,4 @@
-# require 'pry'
+require 'pry'
 
 class Dog
 
@@ -27,6 +27,7 @@ class Dog
 
   def save
     # @@all << name
+    binding.pry
   end
 
 end
