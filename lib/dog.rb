@@ -21,7 +21,7 @@ class Dog
 
   def self.print_all
     # binding.pry
-    puts @@all.values
+    puts @@all.name
   end
 
   def self.save
