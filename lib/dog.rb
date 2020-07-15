@@ -18,8 +18,8 @@ class Dog
     @@all.clear
   end
 
-  def self.print_all
-    puts @@all
+  def self.print_all(name)
+    puts name
   end
 
   def self.save
