@@ -1,6 +1,6 @@
 require 'pry'
 
-def Dog
+class Dog
 
   attr_accessor :name
 
