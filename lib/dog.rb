@@ -21,7 +21,7 @@ class Dog
 
   def self.print_all
     # binding.pry
-    @@all.each do |name|
+    @@all.each do |dog_instance|
       puts name
     end
   end
