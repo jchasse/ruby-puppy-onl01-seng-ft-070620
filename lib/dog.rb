@@ -2,6 +2,8 @@ require 'pry'
 
 def Dog
 
+  attr_accessor :name
+
   @@all = []
 
   def initialize(name)
@@ -12,5 +14,5 @@ def Dog
   def self.all
     @@all
   end
-  
+
 end
